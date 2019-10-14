@@ -1,1 +1,2 @@
 # corejavascript
+Class
