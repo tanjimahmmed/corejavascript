@@ -1,24 +1,42 @@
-// function name(firstName, lastName, gendar){
-//     var output;
-//     if (gendar === 'male'){
-//         output = 'Mr.' + firstName + lastName;
-//     }else if (gendar === 'female'){
-//         output = 'Ms.' + firstName + lastName;
-//     }
-//     return output;
-// }
-// var fullname = name('Tanjim', ' Ahmmed','male');
-// console.log(fullname);
+// inner outer function
+// function outer(){
+//     var a = 10;
+//     function inner(){
+//         a;
+//         console.log('Kolkata');
 
-function example (){
-    return {
-        name: 'Md Tanjim',
-        language:'language',
-        skil:['JavaSCript','Python'],
-        print: function(){
-            console.log(this.name, this.language, this.skil); 
-        }
+//     }
+//     inner();
+//     console.log('outer');
+
+// }
+// outer();
+
+function add(a, b) {
+    function sum() {
+        return a + b;
     }
+    function sub() {
+        return a - b;
+    }
+    function times() {
+        return a * b;
+    }
+    function div() {
+        return a / b;
+    }
+    return sum() + sub() + times() + div();
 }
-var obj = example();
-obj.print();
+var result = add(10, 5);
+console.log(result);
+
+
+// function add(a, b){
+//     function sum(){
+//         return a + b;
+//     }
+//     return sum();
+// }
+// var result = add (20, 20);
+// console.log(result);
+
