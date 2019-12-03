@@ -2,7 +2,7 @@
     "use strict";
 
     jQuery(document).ready(function ($) {
-        $("button").click(function () {
+        // $("button").click(function () {
             // $("#center p:first").hide();
             // $("div:first").hide();
             // $("div:not(#right, #center)").hide();
@@ -21,7 +21,29 @@
             // $("p").text("Twinkel Cats");
             // $("p").html("<h1>You sick</h1>");
             // $("h2").text("give the some text add");
-            $("#left").css("color", "red").css("border", "1px solid #green").fadeOut("2000");
+            // $("#left").css("color", "red").css("border", "1px solid #green").fadeOut("2000");
+            // $("p:first").toggle("para2");
+            // $("#center").fadeOut(2500);
+            // $("#right").fadeIn(2500);
+            // $("#right").fadeIn(2500).fadeOut(2500);
+            // $("#right").fadeTo(2500, 0.9);
+            // $("#right").fadeToggle(2500);
+            // $("#right").prepend("<h2>add a new heading</h2>");
+            // $("#right").append("<h2>add a new heading</h2>");
+            // $("#rigth").before("<h2> Add line in before after </h2>");
+            // $("#right p").replaceWith("<p>Add a line</p>");
+            // $("#right").remove();
+            // $("div").remove();
+            // $("img").attr("src", "smile-2.png");
+            // $("img").removeAttr("src");
+            // $("img").mouseover(function () {
+            // $("p").text("all text are chenged");
+            // $("img").css("border", "1px solid red"); // anythink changed
+            // $("#right").append("<p>add new line</p>");
+            // $("#right").before("<p>add new line</p>");
+            // $("#right").after("<p>add new line</p>");
+            $("#right").hover(function (){
+            $("div").css("background-color",  "yellow");        
         });
 
     });
