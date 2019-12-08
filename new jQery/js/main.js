@@ -78,15 +78,27 @@
         //     $("#right").slideDown();
         // });
 
-        $("hidden_data").hide();
+        // $("hidden_data").hide();
 
-        $("button").click(function(){
-            $(".hidden_data").slideUp();
-        });
+        // $("button").click(function(){
+        //     $(".hidden_data").slideUp();
+        // });
 
-        $("#testb").click(function(){
-            $(".hidden_data").slideDown();
-        });
+        // $("#testb").click(function(){
+        //     $(".hidden_data").slideDown();
+        // });
+        // $("#picdate").datepicker({minDate: new Date(2019, 10, 25)});
+        // $("#picdate").datepicker({maxDate: new Date(2019, 11, 29)});
+        // $("#picdate").datepicker( {showButtonPanel: true,closeText: "Close Calendar",currentText: "Current Date"});
+        // $("#picdate").datepicker({yearSuffix: "Tanjim"});
+        // $("img").tooltip();
+        // $("img").tooltip({content: "THis"});
+        // $("img").tooltip({track: true});
+        // $("img").tooltip({show: {effect: "pulsate", duration:800}});
+        // $("img").tooltip({show: {effect: "fadeIn", duration:800}});
+        // $("img").tooltip({show: {effect: "bounce", duration:800}});
+        // $("img").tooltip({show: {effect: "explode", duration:800}});
+        $("img").tooltip({show: {effect: "highlight", duration:800}});
 
     });
 
